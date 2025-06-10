@@ -7,6 +7,7 @@
 /* Network */
 #include <netdb.h>
 #include <sys/socket.h>
+#include <unistd.h> // Add this line
 
 #define BUF_SIZE 100
 

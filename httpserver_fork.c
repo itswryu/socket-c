@@ -76,7 +76,6 @@ void header(int handler, int status) {
 }
 
 void resolve(int handler) {
-  int status = 0;
   char buf[BUF_SIZE];
   char *method;
   char *filename;
